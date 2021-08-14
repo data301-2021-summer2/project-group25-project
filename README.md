@@ -22,6 +22,9 @@ The World Happiness Report 2021 dataset showcases global happiness scores and ra
 
 - Annabelle: A fourth year Management student specializing in Accounting.
 
+## Dashboard Presentation
+My dashboard presentation can be found [here](https://youtu.be/KtI9Ek3OFec)
+
 ## References
 
 [World Hapiness Report 2021](https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021)

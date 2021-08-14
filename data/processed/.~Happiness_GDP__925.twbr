@@ -1,0 +1,1768 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook source-build='2021.2.1 (20212.21.0712.0907)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='CombinedHappiness' inline='true' name='federated.0fjzqv61imw4m810zoov40gb2hir' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CombinedHappiness' name='textscan.1huevpf0cv4dma10eupmr12odofg'>
+            <connection class='textscan' directory='/Users/annabelle/School/2021/Summer2/data301/group25-project/project-group25-project/data/processed' filename='CombinedHappiness.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1huevpf0cv4dma10eupmr12odofg' name='CombinedHappiness.csv' table='[CombinedHappiness#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Country name' ordinal='0' />
+            <column datatype='date' date-parse-format='yyyy' name='year' ordinal='1' />
+            <column datatype='real' name='Happiness score' ordinal='2' />
+            <column datatype='real' name='Log GDP per capita' ordinal='3' />
+            <column datatype='real' name='Social support' ordinal='4' />
+            <column datatype='real' name='Healthy life expectancy' ordinal='5' />
+            <column datatype='real' name='Freedom to make life choices' ordinal='6' />
+            <column datatype='real' name='Generosity' ordinal='7' />
+            <column datatype='real' name='Perceptions of corruption' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1huevpf0cv4dma10eupmr12odofg' name='CombinedHappiness.csv' table='[CombinedHappiness#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Country name' ordinal='0' />
+            <column datatype='date' date-parse-format='yyyy' name='year' ordinal='1' />
+            <column datatype='real' name='Happiness score' ordinal='2' />
+            <column datatype='real' name='Log GDP per capita' ordinal='3' />
+            <column datatype='real' name='Social support' ordinal='4' />
+            <column datatype='real' name='Healthy life expectancy' ordinal='5' />
+            <column datatype='real' name='Freedom to make life choices' ordinal='6' />
+            <column datatype='real' name='Generosity' ordinal='7' />
+            <column datatype='real' name='Perceptions of corruption' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CombinedHappiness.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country name]</local-name>
+            <parent-name>[CombinedHappiness.csv]</parent-name>
+            <remote-alias>Country name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[CombinedHappiness.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Happiness score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Happiness score]</local-name>
+            <parent-name>[CombinedHappiness.csv]</parent-name>
+            <remote-alias>Happiness score</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Log GDP per capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Log GDP per capita]</local-name>
+            <parent-name>[CombinedHappiness.csv]</parent-name>
+            <remote-alias>Log GDP per capita</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social support</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Social support]</local-name>
+            <parent-name>[CombinedHappiness.csv]</parent-name>
+            <remote-alias>Social support</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Healthy life expectancy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Healthy life expectancy]</local-name>
+            <parent-name>[CombinedHappiness.csv]</parent-name>
+            <remote-alias>Healthy life expectancy</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Freedom to make life choices</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Freedom to make life choices]</local-name>
+            <parent-name>[CombinedHappiness.csv]</parent-name>
+            <remote-alias>Freedom to make life choices</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Generosity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Generosity]</local-name>
+            <parent-name>[CombinedHappiness.csv]</parent-name>
+            <remote-alias>Generosity</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perceptions of corruption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Perceptions of corruption]</local-name>
+            <parent-name>[CombinedHappiness.csv]</parent-name>
+            <remote-alias>Perceptions of corruption</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]&quot;' value='Logged GDP per capita' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Country name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;Hong Kong S.A.R. of China&quot;' value='&quot;Hong Kong&quot;' />
+          <semantic-value key='&quot;North Cyprus&quot;' value='&quot;Northern Cyprus&quot;' />
+          <semantic-value key='&quot;Taiwan Province of China&quot;' value='&quot;Taiwan&quot;' />
+        </semantic-values>
+      </column>
+      <column datatype='real' name='[Freedom to make life choices]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Generosity]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Happiness score]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Healthy life expectancy]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Log GDP per capita]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Perceptions of corruption]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Social support]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Year (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[year]' new-bin='true' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='CombinedHappiness.csv' datatype='table' name='[__tableau_internal_object_id__].[CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Happiness score]' derivation='Avg' name='[avg:Happiness score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Log GDP per capita]' derivation='Avg' name='[avg:Log GDP per capita:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Country name]' derivation='None' name='[none:Country name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[year]' derivation='Quarter' name='[qr:year:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Freedom to make life choices]' derivation='Sum' name='[sum:Freedom to make life choices:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Generosity]' derivation='Sum' name='[sum:Generosity:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Happiness score]' derivation='Sum' name='[sum:Happiness score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Healthy life expectancy]' derivation='Sum' name='[sum:Healthy life expectancy:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Log GDP per capita]' derivation='Sum' name='[sum:Log GDP per capita:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Perceptions of corruption]' derivation='Sum' name='[sum:Perceptions of corruption:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Social support]' derivation='Sum' name='[sum:Social support:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[year]' derivation='Year-Trunc' name='[tyr:year:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+      <group caption='2020 Set' name='[2020 Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='member' level='[Year (group)]' member='&quot;2020-01-01&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
+      <group caption='2021 Set' name='[2021 Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='empty-level' member='[Year (group)]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
+      <group caption='Action (Country name)' hidden='true' name='[Action (Country name)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country name]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Country name,YEAR(Year))' hidden='true' name='[Action (Country name,YEAR(Year))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country name]' />
+          <groupfilter function='level-members' level='[tyr:year:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (YEAR(Year)) 1' hidden='true' name='[Action (YEAR(Year)) 1]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[yr:year:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (YEAR(Year))' hidden='true' name='[Action (YEAR(Year))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[tyr:year:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (YEAR(Year),QUARTER(Year))' hidden='true' name='[Action (YEAR(Year),QUARTER(Year))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[yr:year:ok]' />
+          <groupfilter function='level-members' level='[qr:year:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Bottom 10 GDP per Capita by Country' name='[Bottom 10 GDP per Capita by Country]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter count='10' end='bottom' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+          <groupfilter direction='DESC' expression='SUM([Log GDP per capita])' function='order' user:ui-marker='order'>
+            <groupfilter function='level-members' level='[Country name]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </groupfilter>
+        </groupfilter>
+      </group>
+      <group caption='Top 10 GDP per Capita by Country' name='[Top 10 GDP per Capita by Country]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+          <groupfilter direction='DESC' expression='SUM([Log GDP per capita])' function='order' user:ui-marker='order'>
+            <groupfilter function='level-members' level='[Country name]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </groupfilter>
+        </groupfilter>
+      </group>
+      <group caption='2019 Set' name='[Year Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='member' level='[none:year:ok]' member='#2019-01-01#' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Country name:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Congo (Brazzaville)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kosovo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Moldova&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Malta&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Venezuela&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Hong Kong S.A.R. of China&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mongolia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Taiwan Province of China&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mauritania&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Palestinian Territories&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Vietnam&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;North Cyprus&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Turkmenistan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Swaziland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Rwanda&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Iran&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Montenegro&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Comoros&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Gabon&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ivory Coast&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Maldives&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;North Macedonia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Laos&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Chad&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gambia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' palette='blue_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[__tableau_internal_object_id__].[cnt:CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Healthy life expectancy:qk]&quot;</bucket>
+            </map>
+            <map to='#6394be'>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Log GDP per capita:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Perceptions of corruption:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Generosity:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Freedom to make life choices:qk]&quot;</bucket>
+            </map>
+            <map to='#f49538'>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Happiness score:qk]&quot;</bucket>
+            </map>
+            <map to='#f49538'>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Happiness score:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Social support:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='CombinedHappiness.csv' id='CombinedHappiness.csv_800AA0127B41407585C51063E93AEF83'>
+            <properties context=''>
+              <relation connection='textscan.1huevpf0cv4dma10eupmr12odofg' name='CombinedHappiness.csv' table='[CombinedHappiness#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Country name' ordinal='0' />
+                  <column datatype='date' date-parse-format='yyyy' name='year' ordinal='1' />
+                  <column datatype='real' name='Happiness score' ordinal='2' />
+                  <column datatype='real' name='Log GDP per capita' ordinal='3' />
+                  <column datatype='real' name='Social support' ordinal='4' />
+                  <column datatype='real' name='Healthy life expectancy' ordinal='5' />
+                  <column datatype='real' name='Freedom to make life choices' ordinal='6' />
+                  <column datatype='real' name='Generosity' ordinal='7' />
+                  <column datatype='real' name='Perceptions of corruption' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter1' name='[Action1_852F745755414EE3999B29BEFAAA1CE6]'>
+      <activation auto-clear='true' type='on-select' />
+      <source datasource='federated.0fjzqv61imw4m810zoov40gb2hir' type='datasource'>
+        <exclude-sheet name='Average Logged GPD per Capita' />
+        <exclude-sheet name='Average Score of Happiness' />
+        <exclude-sheet name='Bottom 10 Countries According to GDP' />
+        <exclude-sheet name='Logged GDP per Capita and Happiness Score by Country' />
+        <exclude-sheet name='Top 10 Countries According to GDP' />
+      </source>
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='Average Logged GPD per Capita,Average Score of Happiness,Box and Whisker Plot GDP per capita,Box and Whisker Plot Happiness Score' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='The Affects of COVID-19 on Global Happiness' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average Logged GPD per Capita'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='8'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CombinedHappiness' name='federated.0fjzqv61imw4m810zoov40gb2hir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fjzqv61imw4m810zoov40gb2hir'>
+            <column datatype='real' name='[Log GDP per capita]' role='measure' type='quantitative' />
+            <column-instance column='[Log GDP per capita]' derivation='Avg' name='[avg:Log GDP per capita:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[year]' derivation='Year-Trunc' name='[tyr:year:ok]' pivot='key' type='ordinal' />
+            <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Log GDP per capita:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Log GDP per capita:qk]' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Log GDP per capita:qk]' />
+              <text column='[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Log GDP per capita:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0fjzqv61imw4m810zoov40gb2hir].[tyr:year:ok]</cols>
+      </table>
+      <simple-id uuid='{3511C50E-4CC4-4BE3-AC08-976D8D762264}' />
+    </worksheet>
+    <worksheet name='Average Score of Happiness'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='8'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CombinedHappiness' name='federated.0fjzqv61imw4m810zoov40gb2hir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fjzqv61imw4m810zoov40gb2hir'>
+            <column datatype='real' name='[Happiness score]' role='measure' type='quantitative' />
+            <column-instance column='[Happiness score]' derivation='Avg' name='[avg:Happiness score:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]' value='22' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Happiness score:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Happiness score:qk]' palette='orange_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Happiness score:qk]' />
+              <text column='[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Happiness score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]</cols>
+      </table>
+      <simple-id uuid='{A23F5B96-044C-4119-9455-F186AACFD60D}' />
+    </worksheet>
+    <worksheet name='Bottom 10 Countries According to GDP'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CombinedHappiness' name='federated.0fjzqv61imw4m810zoov40gb2hir' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0fjzqv61imw4m810zoov40gb2hir'>
+            <column datatype='string' name='[Country name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Hong Kong S.A.R. of China&quot;' value='&quot;Hong Kong&quot;' />
+                <semantic-value key='&quot;North Cyprus&quot;' value='&quot;Northern Cyprus&quot;' />
+                <semantic-value key='&quot;Taiwan Province of China&quot;' value='&quot;Taiwan&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='real' name='[Happiness score]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Log GDP per capita]' role='measure' type='quantitative' />
+            <column-instance column='[Country name]' derivation='None' name='[none:Country name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Happiness score]' derivation='Sum' name='[sum:Happiness score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Log GDP per capita]' derivation='Sum' name='[sum:Log GDP per capita:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Happiness score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Happiness score:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[Bottom 10 GDP per Capita by Country]' />
+          <computed-sort column='[federated.0fjzqv61imw4m810zoov40gb2hir].[none:Country name:nk]' direction='DESC' using='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' />
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]'>
+            <groupfilter function='level-members' level='[yr:year:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]</column>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[Bottom 10 GDP per Capita by Country]</column>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3403314352035522' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0fjzqv61imw4m810zoov40gb2hir].[none:Country name:nk] / [federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names])</rows>
+        <cols>[federated.0fjzqv61imw4m810zoov40gb2hir].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{C632C823-2850-4C05-9482-9F9AED0D61DE}' />
+    </worksheet>
+    <worksheet name='Box and Whisker Plot GDP per capita'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CombinedHappiness' name='federated.0fjzqv61imw4m810zoov40gb2hir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fjzqv61imw4m810zoov40gb2hir'>
+            <column datatype='real' name='[Log GDP per capita]' role='measure' type='quantitative' />
+            <column-instance column='[Log GDP per capita]' derivation='Sum' name='[sum:Log GDP per capita:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]' filter-group='3'>
+            <groupfilter function='empty-level' member='[yr:year:ok]' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' scope='rows' value='Logged GDP per capita' />
+          </style-rule>
+          <style-rule element='refboxplot'>
+            <format attr='palette' id='refline0' value='bp_blue' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <reference-line axis-column='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' boxplot-mark-exclusion='true' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' z-order='1' />
+          </pane>
+        </panes>
+        <rows>[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{6301FFCD-B42D-4583-A17F-F839517EE875}' />
+    </worksheet>
+    <worksheet name='Box and Whisker Plot Happiness Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CombinedHappiness' name='federated.0fjzqv61imw4m810zoov40gb2hir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fjzqv61imw4m810zoov40gb2hir'>
+            <column datatype='real' name='[Happiness score]' role='measure' type='quantitative' />
+            <column-instance column='[Happiness score]' derivation='Sum' name='[sum:Happiness score:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]' filter-group='3'>
+            <groupfilter function='empty-level' member='[yr:year:ok]' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='refboxplot'>
+            <format attr='palette' id='refline0' value='bp_orange' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <reference-line axis-column='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Happiness score:qk]' boxplot-mark-exclusion='true' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Happiness score:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.2738673985004425' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Happiness score:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{50159630-F837-49FA-BB21-3C44627564F5}' />
+    </worksheet>
+    <worksheet name='Logged GDP per Capita and Happiness Score by Country'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CombinedHappiness' name='federated.0fjzqv61imw4m810zoov40gb2hir' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fjzqv61imw4m810zoov40gb2hir'>
+            <column datatype='string' name='[Country name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Hong Kong S.A.R. of China&quot;' value='&quot;Hong Kong&quot;' />
+                <semantic-value key='&quot;North Cyprus&quot;' value='&quot;Northern Cyprus&quot;' />
+                <semantic-value key='&quot;Taiwan Province of China&quot;' value='&quot;Taiwan&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='real' name='[Happiness score]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Log GDP per capita]' role='measure' type='quantitative' />
+            <column-instance column='[Country name]' derivation='None' name='[none:Country name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Happiness score]' derivation='Sum' name='[sum:Happiness score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Log GDP per capita]' derivation='Sum' name='[sum:Log GDP per capita:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Happiness score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Happiness score:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[Action (Country name)]'>
+            <groupfilter function='level-members' level='[Country name]' user:ui-action-filter='[Action1_852F745755414EE3999B29BEFAAA1CE6]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.0fjzqv61imw4m810zoov40gb2hir].[none:Country name:nk]' direction='DESC' using='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' />
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]' filter-group='3'>
+            <groupfilter function='empty-level' member='[yr:year:ok]' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]</column>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]</column>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[Action (Country name)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height-header' value='21' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]' value='Filter by Year'>
+              <formatted-text>
+                <run>Filter by Year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0fjzqv61imw4m810zoov40gb2hir].[none:Country name:nk] / [federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names])</rows>
+        <cols>[federated.0fjzqv61imw4m810zoov40gb2hir].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{30D34ECE-3506-48DF-AC33-EE1EBD562562}' />
+    </worksheet>
+    <worksheet name='Logged GDP per capita by Country'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CombinedHappiness' name='federated.0fjzqv61imw4m810zoov40gb2hir' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0fjzqv61imw4m810zoov40gb2hir'>
+            <column datatype='string' name='[Country name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Hong Kong S.A.R. of China&quot;' value='&quot;Hong Kong&quot;' />
+                <semantic-value key='&quot;North Cyprus&quot;' value='&quot;Northern Cyprus&quot;' />
+                <semantic-value key='&quot;Taiwan Province of China&quot;' value='&quot;Taiwan&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='real' name='[Log GDP per capita]' role='measure' type='quantitative' />
+            <column-instance column='[Country name]' derivation='None' name='[none:Country name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Log GDP per capita]' derivation='Sum' name='[sum:Log GDP per capita:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]' filter-group='3'>
+            <groupfilter function='empty-level' member='[yr:year:ok]' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' palette='orange_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' value='Logged GDP per Capita'>
+              <formatted-text>
+                <run>Logged GDP per Capita</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='light' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]' value='Filter by Year' />
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0fjzqv61imw4m810zoov40gb2hir].[none:Country name:nk]' />
+              <color column='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' />
+              <geometry column='[federated.0fjzqv61imw4m810zoov40gb2hir].[Geometry (generated)]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Country name: </run>
+                <run bold='true' fontcolor='#f28e2b'><![CDATA[<[federated.0fjzqv61imw4m810zoov40gb2hir].[none:Country name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Logged GDP per capita:</run>
+                <run fontcolor='#f28e2b'>Æ&#9;</run>
+                <run bold='true' fontcolor='#f28e2b'><![CDATA[<[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.0fjzqv61imw4m810zoov40gb2hir].[Latitude (generated)]</rows>
+        <cols>[federated.0fjzqv61imw4m810zoov40gb2hir].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{CEEF0A88-213D-4241-BA53-619FFD30D0EF}' />
+    </worksheet>
+    <worksheet name='Top 10 Countries According to GDP'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CombinedHappiness' name='federated.0fjzqv61imw4m810zoov40gb2hir' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0fjzqv61imw4m810zoov40gb2hir'>
+            <column datatype='string' name='[Country name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Hong Kong S.A.R. of China&quot;' value='&quot;Hong Kong&quot;' />
+                <semantic-value key='&quot;North Cyprus&quot;' value='&quot;Northern Cyprus&quot;' />
+                <semantic-value key='&quot;Taiwan Province of China&quot;' value='&quot;Taiwan&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='real' name='[Happiness score]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Log GDP per capita]' role='measure' type='quantitative' />
+            <column-instance column='[Country name]' derivation='None' name='[none:Country name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Happiness score]' derivation='Sum' name='[sum:Happiness score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Log GDP per capita]' derivation='Sum' name='[sum:Log GDP per capita:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Happiness score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Happiness score:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[Top 10 GDP per Capita by Country]' />
+          <computed-sort column='[federated.0fjzqv61imw4m810zoov40gb2hir].[none:Country name:nk]' direction='DESC' using='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' />
+          <filter class='categorical' column='[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]'>
+            <groupfilter function='level-members' level='[yr:year:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]</column>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[Top 10 GDP per Capita by Country]</column>
+            <column>[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' scope='cols' value='Logged GDP per capita' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Happiness score:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0fjzqv61imw4m810zoov40gb2hir].[none:Country name:nk] / [federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names])</rows>
+        <cols>[federated.0fjzqv61imw4m810zoov40gb2hir].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{6CD93C15-0B23-4BBC-959C-122BA2BB74D4}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='The Affects of COVID-19 on Global Happiness'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='26'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='CombinedHappiness' name='federated.0fjzqv61imw4m810zoov40gb2hir' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0fjzqv61imw4m810zoov40gb2hir'>
+        <column caption='Year' datatype='date' name='[year]' role='dimension' type='quantitative' />
+        <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='77086' id='56' name='Logged GDP per capita by Country' show-title='false' w='52829' x='2122' y='18675'>
+          <layout-cache minheight='201' type-h='scalable' type-w='fixed' />
+        </zone>
+        <zone forceUpdate='true' h='4768' id='39' type-v2='text' w='96484' x='1390' y='11656'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#f9a655' fontsize='12'>Research Question: How do the higher-ranked and lower-ranked countries in GDP compare in level of happiness before and during COVID-19?</run>
+          </formatted-text>
+        </zone>
+        <zone fixed-size='98' h='10066' id='10' is-fixed='true' type-v2='title' w='94522' x='2698' y='4371' />
+        <zone h='10728' id='57' name='Average Score of Happiness' w='15617' x='61570' y='41589' />
+        <zone h='10199' id='63' name='Average Logged GPD per Capita' w='18152' x='81603' y='42252' />
+        <zone h='21060' id='64' name='Logged GDP per Capita and Happiness Score by Country' w='40801' x='57400' y='19073' />
+        <zone h='7020' id='65' mode='checkdropdown' name='Logged GDP per Capita and Happiness Score by Country' param='[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]' type-v2='filter' values='database' w='13083' x='40638' y='88079' />
+        <zone h='8079' id='66' name='Logged GDP per capita by Country' pane-specification-id='0' param='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' type-v2='color' w='31825' x='2617' y='87682' />
+        <zone h='40265' id='67' name='Box and Whisker Plot GDP per capita' show-title='false' w='14391' x='80785' y='55099' />
+        <zone h='41457' id='68' name='Box and Whisker Plot Happiness Score' show-title='false' w='14636' x='59689' y='54702' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='26'>&lt;Sheet Name&gt;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='76' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98042' id='75' param='vert' type-v2='layout-flow' w='98888' x='556' y='979'>
+                <zone fixed-size='98' h='10066' id='10' type-v2='title' w='94522' x='2698' y='4371'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4768' id='39' type-v2='text' w='96484' x='1390' y='11656'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#f9a655' fontsize='12'>Research Question: How do the higher-ranked and lower-ranked countries in GDP compare in level of happiness before and during COVID-19?</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='77086' id='56' is-fixed='true' name='Logged GDP per capita by Country' show-title='false' w='52829' x='2122' y='18675'>
+                  <layout-cache minheight='201' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8079' id='66' name='Logged GDP per capita by Country' pane-specification-id='0' param='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' type-v2='color' w='31825' x='2617' y='87682'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7020' id='65' mode='checkdropdown' name='Logged GDP per Capita and Happiness Score by Country' param='[federated.0fjzqv61imw4m810zoov40gb2hir].[yr:year:ok]' type-v2='filter' values='database' w='13083' x='40638' y='88079'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='168' h='21060' id='64' is-fixed='true' name='Logged GDP per Capita and Happiness Score by Country' w='40801' x='57400' y='19073'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='86' h='10728' id='57' is-fixed='true' name='Average Score of Happiness' w='15617' x='61570' y='41589'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='82' h='10199' id='63' is-fixed='true' name='Average Logged GPD per Capita' w='18152' x='81603' y='42252'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41457' id='68' is-fixed='true' name='Box and Whisker Plot Happiness Score' show-title='false' w='14636' x='59689' y='54702'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40265' id='67' is-fixed='true' name='Box and Whisker Plot GDP per capita' show-title='false' w='14391' x='80785' y='55099'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{BD0334B9-32E4-4DF1-9E12-77E5744DF6B9}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' show-side-pane='false' source-height='2'>
+    <window class='worksheet' name='Top 10 Countries According to GDP'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{097C208B-E587-4B6E-99EC-A39C95878BB9}' />
+    </window>
+    <window class='worksheet' name='Bottom 10 Countries According to GDP'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{35C7B081-16BD-4275-BB66-36A1E03A411A}' />
+    </window>
+    <window class='worksheet' name='Logged GDP per Capita and Happiness Score by Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0fjzqv61imw4m810zoov40gb2hir].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{34DDB6B0-B407-479A-8BF1-3D82B06FE05E}' />
+    </window>
+    <window class='worksheet' name='Logged GDP per capita by Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0fjzqv61imw4m810zoov40gb2hir].[sum:Log GDP per capita:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0CA2B155-6D64-4FCC-B5E1-7CAD215A5897}' />
+    </window>
+    <window class='worksheet' name='Average Score of Happiness'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Happiness score:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BF0FA20F-F659-4208-ABFE-77A1D31FF5BB}' />
+    </window>
+    <window class='worksheet' name='Average Logged GPD per Capita'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0fjzqv61imw4m810zoov40gb2hir].[avg:Log GDP per capita:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{660C8AD5-5ECE-4BEF-BC0A-5D9DFB2792E9}' />
+    </window>
+    <window class='worksheet' name='Box and Whisker Plot Happiness Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{99A07DB9-2B45-4F57-8A33-EF6C3B03B0FE}' />
+    </window>
+    <window class='worksheet' name='Box and Whisker Plot GDP per capita'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8284334B-E37A-4369-8EF9-CF1CEC708B9B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='The Affects of COVID-19 on Global Happiness'>
+      <viewpoints>
+        <viewpoint name='Average Logged GPD per Capita' />
+        <viewpoint name='Average Score of Happiness' />
+        <viewpoint name='Box and Whisker Plot GDP per capita'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Box and Whisker Plot Happiness Score'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Logged GDP per Capita and Happiness Score by Country' />
+        <viewpoint name='Logged GDP per capita by Country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='65' />
+      <simple-id uuid='{B0AC35C5-6628-4FA7-B09A-B6C546C5EE7A}' />
+    </window>
+  </windows>
+</workbook>
