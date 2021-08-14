@@ -1,3 +1,3 @@
 # Data
 
-This directory will contain data files and is seperated into "raw" and "processed". 
+This directory contains data files and is seperated into "raw" and "processed".

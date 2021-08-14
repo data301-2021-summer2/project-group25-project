@@ -1,3 +1,3 @@
 # Raw Data
 
-This directory will contain original data from source.
+This directory contains original data from source. These files are unedited.
